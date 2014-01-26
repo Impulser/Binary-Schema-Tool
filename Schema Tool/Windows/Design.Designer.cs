@@ -195,6 +195,7 @@
             button5.TabIndex = 7;
             button5.Text = "u8";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += new System.EventHandler(this.AddField_Click);
             // 
             // button4
             // 
@@ -204,6 +205,7 @@
             button4.TabIndex = 3;
             button4.Text = "i8";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += new System.EventHandler(this.AddField_Click);
             // 
             // button6
             // 
@@ -213,6 +215,7 @@
             button6.TabIndex = 6;
             button6.Text = "u4";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += new System.EventHandler(this.AddField_Click);
             // 
             // button3
             // 
@@ -222,6 +225,7 @@
             button3.TabIndex = 2;
             button3.Text = "i4";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += new System.EventHandler(this.AddField_Click);
             // 
             // button7
             // 
@@ -231,6 +235,7 @@
             button7.TabIndex = 5;
             button7.Text = "u2";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += new System.EventHandler(this.AddField_Click);
             // 
             // button2
             // 
@@ -240,6 +245,7 @@
             button2.TabIndex = 1;
             button2.Text = "i2";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += new System.EventHandler(this.AddField_Click);
             // 
             // button8
             // 
@@ -249,6 +255,7 @@
             button8.TabIndex = 4;
             button8.Text = "u1";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += new System.EventHandler(this.AddField_Click);
             // 
             // button1
             // 
@@ -258,6 +265,7 @@
             button1.TabIndex = 0;
             button1.Text = "i1";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += new System.EventHandler(this.AddField_Click);
             // 
             // groupBox3
             // 
