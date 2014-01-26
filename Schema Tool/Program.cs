@@ -1,22 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿// ****************************************
+// Assembly : Schema Tool
+// File     : Program.cs
+// Author   : Alex
+// Created  : 26/01/2014
+// ****************************************
+
+using System;
 using System.Windows.Forms;
+using SchemaTool.Windows;
 
 namespace SchemaTool
 {
-    static class Program
+    internal static class Program
     {
         /// <summary>
-        /// The main entry point for the application.
+        ///     The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        private static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form());
+            Application.Run(new Start());
         }
     }
 }
